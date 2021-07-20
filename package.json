@@ -1,5 +1,5 @@
 {
-  "name": "loan-portfolio",
+  "name": "portfolio-web",
   "private": true,
   "description": "Portfolio",
   "version": "0.1.0",
@@ -34,7 +34,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
