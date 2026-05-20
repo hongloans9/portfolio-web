@@ -29,7 +29,7 @@ export interface SocialLink {
 export const personalInfo = {
   name: 'Nguyen Hong Loan',
   title: 'Software Engineer',
-  subtitle: 'Frontend Platform & AI Experiences',
+  subtitle: 'Frontend Platform & AI Engineering',
   location: 'Espoo, Finland',
   email: 'nguyenloan150492@gmail.com',
   phone: '+358 504706222',
@@ -37,10 +37,10 @@ export const personalInfo = {
 }
 
 export const summary =
-  'Software Engineer specializing in frontend platform architecture, data visualization systems, and AI-assisted product development. Experienced in building scalable dashboard platforms, interactive analytics workflows, and high-performance web applications using React, Next.js, and TypeScript.'
+  'Software Engineer with 8+ years of experience building customer-facing web applications in SaaS and marketing analytics. At Supermetrics, owned key platform features — license management, billing, and navigation — while architecting dashboard experiences serving 40+ marketing data sources.'
 
 export const summaryExtended =
-  'Strong background in reusable component systems, frontend scalability, and cross-functional product development. Passionate about developer experience, modern UI architecture, and applying AI technologies to improve workflows and user experiences.'
+  'Recently expanded into AI-powered product development using Google ADK, Gemini, and multi-agent systems. Strong track record of shipping end-to-end features in React/TypeScript monorepos with a focus on reusable component systems, developer experience, and quality through comprehensive E2E testing.'
 
 export const experience: WorkExperience[] = [
   {
@@ -52,33 +52,30 @@ export const experience: WorkExperience[] = [
       {
         title: 'Dashboard Platform & Data Visualization',
         bullets: [
-          'Built scalable frontend applications using React, Next.js, TypeScript, and Chakra UI.',
-          'Developed dashboard experiences for querying, visualizing, and managing data through interactive charts, widgets, filtering systems, and AI agents using Python.',
-          'Built reusable dashboard components and shared UI architecture to support internal and public-facing analytics experiences.',
-          'Improved dashboard scalability and reduced duplicate rendering logic through reusable widget systems and shared component libraries.',
+          'Owned the development of interactive dashboard experiences with chart widgets, data source management, filtering, and search — serving analytics workflows across 40+ marketing data sources.',
+          'Architected reusable widget system (text widgets, line charts, metric selectors) adopted across multiple product teams within a pnpm monorepo.',
         ],
       },
       {
         title: 'AI-assisted Product Development',
         bullets: [
-          'Built AI-assisted dashboard workflows and Python-based AI agents to improve automation, dashboard generation, and developer productivity.',
-          'Integrated AI-powered experiences into dashboard workflows to support data exploration and configuration flows.',
+          'Implemented Human-in-the-Loop (HITL) tooling for a multi-agent AI system built with Google ADK and Gemini, enabling interactive data source and connection selection in AI-driven dashboard generation.',
+          'Designed tool propagation architecture to decouple HITL frontend tools from backend agent runtime, improving modularity across the agent tree.',
+          'Leveraged Claude Code as a daily AI-assisted development tool to accelerate feature delivery, code review, and test authoring.',
         ],
       },
       {
-        title: 'Frontend Architecture & Developer Experience',
+        title: 'Platform Features & Ownership',
         bullets: [
-          'Contributed to frontend platform architecture within a multi-package monorepo using shared libraries and modular package boundaries.',
-          'Improved frontend architecture, performance, developer experience, and reusable component systems across multiple product initiatives.',
-          'Implemented automated testing improvements using Playwright and TypeScript to improve product quality and release confidence.',
+          'Led the license page system end-to-end — license management, user assignment, upgrade modals, and billing with progressive rollout via feature flags.',
+          'Built the billing infrastructure from the ground up: billing history with search/sort, payment methods, and billing entity management.',
+          'Designed and shipped the navigation sidebar redesign — team switching, expandable sections, animations, and responsive states.',
         ],
       },
       {
-        title: 'Platform Features & Product Development',
+        title: 'Testing & Quality',
         bullets: [
-          'Contributed to internal tools, license management, purchasing flows, onboarding experiences, and team management features.',
-          'Collaborated closely with backend engineers, designers, QA, and product teams to deliver scalable customer-facing features.',
-          'Contributed across CSTools, Hub, and Dashboard initiatives while expanding into Vue.js and modern AI tooling.',
+          'Authored comprehensive E2E test suites for dashboard features using Playwright — covering widgets, data sources, filtering, sorting, and role-based access with robust test isolation patterns.',
         ],
       },
     ],
@@ -151,7 +148,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     name: 'AI Integration',
-    skills: ['Python AI agents', 'AI-assisted workflows', 'Prompt engineering'],
+    skills: ['Google ADK', 'Gemini', 'HITL tooling', 'Multi-agent systems', 'Claude Code', 'Prompt engineering'],
   },
   {
     name: 'Testing & Observability',
@@ -172,11 +169,6 @@ export const coreStrengths = [
   'Cross-functional Collaboration',
   'Developer Experience',
   'Scalable Product Engineering',
-  'Continuous Learning',
-  'Problem-Solving',
-  'Attention to Details',
-  'Teamwork',
-  'Time Management',
 ]
 
 export const socialLinks: SocialLink[] = [
