@@ -47,7 +47,7 @@ export const experience: WorkExperience[] = [
     company: 'Supermetrics Oy',
     role: 'Software Engineer',
     period: 'Dec 2021 – Present',
-    location: 'Helsinki / Espoo, Finland',
+    location: 'Helsinki, Finland',
     categories: [
       {
         title: 'Dashboard Platform & Data Visualization',
@@ -155,7 +155,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     name: 'Testing & Observability',
-    skills: ['Playwright', 'Jest', 'Datadog', 'OpenTelemetry'],
+    skills: ['Playwright', 'Jest', 'Datadog'],
   },
   {
     name: 'Backend & Infra',
@@ -172,6 +172,11 @@ export const coreStrengths = [
   'Cross-functional Collaboration',
   'Developer Experience',
   'Scalable Product Engineering',
+  'Continuous Learning',
+  'Problem-Solving',
+  'Attention to Details',
+  'Teamwork',
+  'Time Management',
 ]
 
 export const socialLinks: SocialLink[] = [
